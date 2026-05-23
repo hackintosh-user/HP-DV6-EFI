@@ -68,3 +68,11 @@ Then add the following information from the image below to the exact dot! but be
 Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern Wireless" Card, and add a # after patching before rebooting! and There you GO! Wifi Should Now Work:
 <img width="321" height="227" alt="Screenshot 2026-05-23 at 2 10 33 PM" src="https://github.com/user-attachments/assets/1596fa04-4100-4197-a9fa-f47c6909661b" />
 
+
+## Credits
+* Apple For macOS, all Kexts inside macOS
+* [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
+* [OpenCore legacy Patcher for Root Patches](https://github.com/dortania/Opencore-Legacy-Patcher)
+* [GenSMBIOS](https://github.com/corpnewt/gensmbios)
+* Me lol
+* [Propertree For editing the config.plist](https://github.com/corpnewt/propertree)
