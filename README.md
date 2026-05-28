@@ -2,7 +2,10 @@
 Welcome to this Github Repo! This repo has the EFI Folder for the HP Pavilion DV6-7070ex Ivy bridge notebook from 2012,
 the EFI has an OpenCore Config to boot macOS Sequoia, Sonoma, and Ventura on this Ivy bridge laptop. But Some notes below
 
-## NOTES
+## NOTE 0.1 You Currently Must Go Get the EFI Folder from the releases Tab, as The main Branch Doesnt have all the Needed Files to boot Currently. head over to the releases Tab and Grab the latest Release of the EFI Folder.
+[Here is the link](https://github.com/hackintosh-user/HP-DV6-EFI/releases/tag/1.0.0)
+
+## NOTES 0.2
 * This is a pre built EFI, i made it, So if you encounter any issues and go report to the Hackintosh Subreddit, or the Hackintosh
 Discord, they will tell you to rebuild it yourself!! IF you have Any issues Please reffer to the Issues tab in this github repo.
 * You will Need OpenCore Legacy patcher for Running macOS monterey 12 and later Due to Apple Dropping the Intel HD 4000.
