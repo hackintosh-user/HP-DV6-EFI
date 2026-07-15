@@ -73,6 +73,11 @@ and add a New Child (⌘ +) and name it Your Centrino's PCIe path ( aka the Devi
 Then add the following information from the image below to the exact dot! but be aware!!: i put a # before the PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0) you may ask: Why tho? because after Using OCLP root patches you will need to disable it Because if enabled, macOS will treat it as a BCRM Card ( which we dont have lol), so use a # to disable the PCIe property and only remove the # when you need to re apply opencore legacy patcher post installation Root Patches!
 <img width="730" height="511" alt="Screenshot 2026-05-23 at 1 53 29 PM" src="https://github.com/user-attachments/assets/474158fb-e0a1-4433-85e3-72ac7ced09c1" />
 
+
+After applying these Changes, Go under Kerenel -> Block and add these values From This image:
+<img width="730" height="534" alt="Screenshot 2026-07-16 at 2 33 08 AM" src="https://github.com/user-attachments/assets/9daf2829-b83c-468c-a019-67026388791f" />
+
+
 Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern Wireless" Card, and add a # after patching before rebooting! and There you GO! Wifi Should Now Work:
 <img width="321" height="227" alt="Screenshot 2026-05-23 at 2 10 33 PM" src="https://github.com/user-attachments/assets/1596fa04-4100-4197-a9fa-f47c6909661b" />
 
