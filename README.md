@@ -83,7 +83,12 @@ Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern 
 
 <img width="321" height="227" alt="Screenshot 2026-05-23 at 2 10 33 PM" src="https://github.com/user-attachments/assets/1596fa04-4100-4197-a9fa-f47c6909661b" />
 
- and There you GO! Wifi Should Now Work But if you want, just use itlwm + Heliport and save your self some time if you dont mind waiting an extra second for the heliport client to load up!
+ and There you GO! Wifi Should Now Work But if you want, just use itlwm + Heliport and save your self some time if you dont mind waiting an extra second for the heliport client to load up! But Please be aware that:
+ * The intel Centrino Card is unoffically Supported by the itlwm Driver
+ * the Card only Supports 2.4ghz and no 5Ghz
+ * the Card only Supports Bluetooth 4.0
+ * it is offically Unsupported by Apple.
+So When Disucssing Issues about it Remeber these!
 ## Credits
 * Apple For macOS, all Kexts inside macOS
 * [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
