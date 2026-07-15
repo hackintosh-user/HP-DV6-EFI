@@ -1,3 +1,5 @@
+# HP Pavilion DV6-7070ex — OpenCore EFI / Hackintosh
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/hackintosh-user/HP-DV6-EFI/main/Repo%20assets/hpDV6_nobg.png" alt="HP Pavilion DV6 Hackintosh" width="500">
 </p>
