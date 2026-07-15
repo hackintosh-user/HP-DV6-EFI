@@ -22,29 +22,27 @@ a Supported BCM Card with OCLP.
 
 ## Known Issues
 * the "HP TrueVision" Webcame is turned off in the UTBMap.kext.
-* Same Goes for the Intel Bluetooth Controller. It is Disabled.
+*  Intel Bluetooth Controller is Disabled / Turned off in UTBMap.kext.
 * for macOS Sequoia+ You will need itlwm+heliport Or use OCLP to patch your WIFI.
-* If Your Laptop's Screen is 1366x768 it will look like Shit! (forgive me but true).
-* When Booting macOS Ventura+ Your System needs [Cryptexfixup.kext](https://github.com/acidanthera/CryptexFixup)
-* When Booting macOS Ventura + Your system will Fail to boot with the boot arg
+* When Booting macOS Ventura + Your System needs [Cryptexfixup.kext](https://github.com/acidanthera/CryptexFixup)
+* When Booting macOS Ventura + Your System will Fail to boot with the boot arg
   ```zsh
   Debug=0x100
   ```
-  remove it from the Congfig.plist in the NVRAM Section of said plist.
+  remove it from the Congfig.plist in the NVRAM Section of said plist. But If you are encountering issues when booting older macOS (older than Ventura) Make sure to keep as it Stops the system From Restarting which may help you properly Debug the issue.
 
 
   ## Specs
 
   your System must have the following to make sure this EFI is a Perfect Fit here they are Below
 
-  * CPU: intel Core i7-3610QM
+  * CPU: intel Core i7-3610QM @ 2.3ghz 
   * RAM: either the  Stock 8GB or maxxed out 16GB Will be Fine But 8+ i recommend for Sequoia and Soon later.
-  * SATA Mode: Must be AHCI for better compatabillity. RAID Is Stock.
+  * SATA Mode: Must be AHCI for better compatabillity. RAID Is Stock. But you Can make it work on Monterey,(never tested Ventura  -- Sequoia)
   * WIFI: intel Card is prefered as Most BCM cards from 2012 are not Supported in macOS ( well atleast modern macOS)
   * Some Form of OS to make the Installer ( could be Windows Or Linux But Must have Python3. or A Mac).
-  * GPU(s):
-          * Intel HD Graphics 4000
-          * Nvidia Geforce GT 630M ( will be Disabled in the BIOS/openCore)
+  * GPU(s):       * Intel HD Graphics 4000
+                  * Nvidia Geforce GT 630M ( will be Disabled in the BIOS/openCore)
 
 
 
