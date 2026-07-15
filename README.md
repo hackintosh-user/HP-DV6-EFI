@@ -17,7 +17,6 @@ Discord, they will tell you to rebuild it yourself!! IF you have Any issues Plea
 * if your DV6-7070ex has a broadcom BCM Card, it is most likely unsupported in Modern MacOS! Switch it out with a: Intel Card Or
 a Supported BCM Card with OCLP.
 * OCLP Still Does not Support macOS Tahoe As of July 2026. If you Plan on Running macOS, Choose macOS Sequoia Since Sonoma will be Dropped very soon. But the choice is Yours.
-they Still get Security updates.
 * * In the Platform Tab in the config.plist i will leave it empty as you are required to Use GenSMBIOS to make a MacBookPro SMBIOS. [Use This Link to Get GenSMBIOS](https://github.com/corpnewt/gensmbios)
 
 
