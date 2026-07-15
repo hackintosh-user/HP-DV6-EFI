@@ -63,9 +63,10 @@ You Need The Following Kexts in the exact Same order listed,(Goes in Kernel -> A
 
 
 Then, You need to Find your WIFI card's PCI Root Path To Then Build Use it in the config.plist:
-1- [Use hackintool](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/benbaker76/Hackintool&ved=2ahUKEwje5NuMoc-UAxVzXEEAHThYMj8QFnoECA0QAQ&usg=AOvVaw0zCMJ5DgMdxEVX3BBdZuwz)
-2- Then, in hackintool, Head into the PCIe Tab on the top menu
-3- you Should see a bunch of Classes and Devices, we Are here for the network Card, See the image below:
+
+* [Use hackintool](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/benbaker76/Hackintool&ved=2ahUKEwje5NuMoc-UAxVzXEEAHThYMj8QFnoECA0QAQ&usg=AOvVaw0zCMJ5DgMdxEVX3BBdZuwz)
+* Then, in hackintool, Head into the PCIe Tab on the top menu
+* you Should see a bunch of Classes and Devices, we Are here for the network Card, See the image below:
 <img width="1366" height="688" alt="Screenshot 2026-05-23 at 2 04 08 PM" src="https://github.com/user-attachments/assets/ebdcd6ea-e781-4104-aa90-761feb96e23e" />
 Then, right Click and Click on "copy Device Path" and You may Close hackintool now,
 Now we will go to The Config.plist under (DeviceProperties -> Add)
