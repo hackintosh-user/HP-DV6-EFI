@@ -78,10 +78,10 @@ After applying these Changes, Go under Kerenel -> Block and add these values Fro
 <img width="730" height="534" alt="Screenshot 2026-07-16 at 2 33 08 AM" src="https://github.com/user-attachments/assets/9daf2829-b83c-468c-a019-67026388791f" />
 
 
-Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern Wireless" Card, and add a # after patching before rebooting! and There you GO! Wifi Should Now Work:
+Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern Wireless" Card, and add a # after patching before rebooting!
 <img width="321" height="227" alt="Screenshot 2026-05-23 at 2 10 33 PM" src="https://github.com/user-attachments/assets/1596fa04-4100-4197-a9fa-f47c6909661b" />
 
-
+ and There you GO! Wifi Should Now Work But if you want, just use itlwm + Heliport and save your self some time if you dont mind waiting an extra second for the heliport client to load up!
 ## Credits
 * Apple For macOS, all Kexts inside macOS
 * [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
