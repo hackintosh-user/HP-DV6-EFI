@@ -89,9 +89,12 @@ After applying these Changes, Go under Kerenel -> Block and add these values Fro
 
 And When you Reboot (With the # removed from the PCIe Path) And launch OpenCore Legacy Patcher (OCLP) and then head into "Post installation Root-Patches" and start the Patching process you should see something like this:
 
-"Modern Wireless" Is the Correct Patch we will be installing for our little Centrino Card!
+
 
 <img width="399" height="590" alt="Screenshot 2026-02-08 at 9 10 33 PM" src="https://github.com/user-attachments/assets/f86de8ba-7ea4-4bff-a265-bcda942fcf04" />
+
+"Modern Wireless" Is the Correct Patch we will be installing for our little Centrino Card!
+
 
 After it finshes, Before rebooting Open up your plist and head over to your Device Properties, and:
 
