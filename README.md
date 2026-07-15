@@ -69,7 +69,10 @@ Then, You need to Find your WIFI card's PCI Root Path To Then Build Use it in th
 * you Should see a bunch of Classes and Devices, we Are here for the network Card, See the image below:
 <img width="1366" height="688" alt="Screenshot 2026-05-23 at 2 04 08 PM" src="https://github.com/user-attachments/assets/ebdcd6ea-e781-4104-aa90-761feb96e23e" />
 Then:
+
+
 * right Click and Click on "copy Device Path".
+
 
 After this you may Close hackintool.
 
