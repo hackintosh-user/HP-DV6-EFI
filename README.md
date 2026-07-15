@@ -86,12 +86,28 @@ After applying these Changes, Go under Kerenel -> Block and add these values Fro
 <img width="730" height="534" alt="Screenshot 2026-07-16 at 2 33 08 AM" src="https://github.com/user-attachments/assets/9daf2829-b83c-468c-a019-67026388791f" />
 
 
-Then, Reboot and head into OCLP, And apply the new Root patches for the "Modern Wireless" Card, and add a # after patching before rebooting!
+
+And When you Reboot And launch OpenCore Legacy Patcher (OCLP) you should see something like this:
+
+<img width="399" height="590" alt="Screenshot 2026-02-08 at 9 10 33 PM" src="https://github.com/user-attachments/assets/f86de8ba-7ea4-4bff-a265-bcda942fcf04" />
+
+After it finshes, Before rebooting Open up your plist and head over to your Device Properties, and:
+
+* add a # behind the PCIe path Like this: #PCI(etc).....
+* Apply & Save the changes
+* Reboot your system
+* before booting into Sequoia, Reset your NVRAM.
+
+
+
+And After the Reboot You should login and see this!
+
 
 
 <img width="321" height="227" alt="Screenshot 2026-05-23 at 2 10 33 PM" src="https://github.com/user-attachments/assets/1596fa04-4100-4197-a9fa-f47c6909661b" />
 
- and There you GO! Wifi Should Now Work But if you want, just use itlwm + Heliport and save your self some time if you dont mind waiting an extra second for the heliport client to load up! But Please be aware that:
+ And There you GO! Wifi Should Now Work But if you want, just use itlwm + Heliport and save your self some time if you dont mind waiting an extra second for the heliport client to load up! But Please be aware that:
+ 
  * The intel Centrino Card is unoffically Supported by the itlwm Driver
  * the Card only Supports 2.4ghz and no 5Ghz
  * the Card only Supports Bluetooth 4.0
