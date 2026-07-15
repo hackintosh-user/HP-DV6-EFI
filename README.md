@@ -68,10 +68,14 @@ Then, You need to Find your WIFI card's PCI Root Path To Then Build Use it in th
 * Then, in hackintool, Head into the PCIe Tab on the top menu
 * you Should see a bunch of Classes and Devices, we Are here for the network Card, See the image below:
 <img width="1366" height="688" alt="Screenshot 2026-05-23 at 2 04 08 PM" src="https://github.com/user-attachments/assets/ebdcd6ea-e781-4104-aa90-761feb96e23e" />
-Then, right Click and Click on "copy Device Path" and You may Close hackintool now,
-Now we will go to The Config.plist under (DeviceProperties -> Add)
+Then:
+* right Click and Click on "copy Device Path".
+
+After this you may Close hackintool.
+
+Now we will go to The Config.plist under:   (DeviceProperties -> Add)
 and add a New Child (⌘ +) and name it Your Centrino's PCIe path ( aka the Device path we copied!) Should look something like this: PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)
-Then add the following information from the image below to the exact dot! but be aware!!: i put a # before the PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0) you may ask: Why tho? because after Using OCLP root patches you will need to disable it Because if enabled, macOS will treat it as a BCRM Card ( which we dont have lol), so use a # to disable the PCIe property and only remove the # when you need to re apply opencore legacy patcher post installation Root Patches!
+Then add the following information from the image below to the exact dot! but be aware!!: i put a # before the PCIe Path. You may ask: Why tho? because after Using OCLP root patches you will need to disable it Because if enabled, macOS will treat it as a BCRM Card ( which Our System Doesn't), so use a # to disable the PCIe property and only remove the # when you need to re apply opencore legacy patcher post installation Root Patches!
 <img width="730" height="511" alt="Screenshot 2026-05-23 at 1 53 29 PM" src="https://github.com/user-attachments/assets/474158fb-e0a1-4433-85e3-72ac7ced09c1" />
 
 
