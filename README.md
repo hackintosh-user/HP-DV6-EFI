@@ -49,7 +49,7 @@ a Supported BCM Card with OCLP.
 
 
 
-## How To Patch the intel Centrino Wireless N2230 WIFI and BT Combo With [OpenCore Legacy Patcher](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/dortania/Opencore-Legacy-Patcher&ved=2ahUKEwjMnPi7n8-UAxVTR0EAHYEWIM0QFnoECCoQAQ&usg=AOvVaw2R_gm_0tWP2NWgcLM7Ktr-):
+## **How To Patch the intel Centrino Wireless N2230 WIFI and BT Combo With [OpenCore Legacy Patcher](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/dortania/Opencore-Legacy-Patcher&ved=2ahUKEwjMnPi7n8-UAxVTR0EAHYEWIM0QFnoECCoQAQ&usg=AOvVaw2R_gm_0tWP2NWgcLM7Ktr-) On macOS Sequoia And later**:
 
 This is a guide! Mainly Because Some Versions of the DV6 have Diffrent PCIe Paths for WIFI Cards, but Most of the Models Are the Same! But regardless here is how to Get The Native WIFI working without itlwm or It's native Client heliport:
 
@@ -87,7 +87,9 @@ After applying these Changes, Go under Kerenel -> Block and add these values Fro
 
 
 
-And When you Reboot And launch OpenCore Legacy Patcher (OCLP) you should see something like this:
+And When you Reboot (With the # removed from the PCIe Path) And launch OpenCore Legacy Patcher (OCLP) and then head into "Post installation Root-Patches" and start the Patching process you should see something like this:
+
+"Modern Wireless" Is the Correct Patch we will be installing for our little Centrino Card!
 
 <img width="399" height="590" alt="Screenshot 2026-02-08 at 9 10 33 PM" src="https://github.com/user-attachments/assets/f86de8ba-7ea4-4bff-a265-bcda942fcf04" />
 
@@ -95,8 +97,10 @@ After it finshes, Before rebooting Open up your plist and head over to your Devi
 
 * add a # behind the PCIe path Like this: #PCI(etc).....
 * Apply & Save the changes
+* Exit out of Whatever Plist editor you are using (after saving ofc)
 * Reboot your system
 * before booting into Sequoia, Reset your NVRAM.
+* Then Boot into Sequoia normally
 
 
 
