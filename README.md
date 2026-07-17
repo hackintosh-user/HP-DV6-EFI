@@ -42,8 +42,8 @@ a Supported BCM Card with OCLP.
   * SATA Mode: Must be AHCI for better compatabillity. RAID Is Stock. But you Can make it work on Monterey,(never tested Ventura  -- Sequoia)
   * WIFI: intel Card is prefered as Most BCM cards from 2012 are not Supported in macOS ( well atleast modern macOS)
   * Some Form of OS to make the Installer ( could be Windows Or Linux But Must have Python3. or A Mac)
-  * Intel HD Graphics 4000
-  * Nvidia Geforce GT 630M ( will be Disabled in the BIOS/openCore)
+  * GPU(s): * Intel graphics HD 4000 (iGPU)
+            * * nVidia Geforce GT 630M (Will be Disabled in OpenCore With the boot-arg "-wegnoegpu" )
 
 
 
