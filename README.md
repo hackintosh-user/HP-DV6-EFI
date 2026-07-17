@@ -105,7 +105,7 @@ After it finshes, Before rebooting Open up your plist and head over to your Devi
 
 
 
-And After the Reboot You should login and see this!
+And After the Reboot You should login and then Join your network, enter your password and it Should connect and look like this!
 
 
 
