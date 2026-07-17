@@ -124,5 +124,5 @@ So When Disucssing Issues about it Remeber these!
 * [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * [OpenCore legacy Patcher for Root Patches](https://github.com/dortania/Opencore-Legacy-Patcher)
 * [GenSMBIOS](https://github.com/corpnewt/gensmbios)
-* [Hackintosh-User / Me]
+* [Hackintosh-User / Me](https://x.com/mohammad_q_124)
 * [Propertree For editing the config.plist](https://github.com/corpnewt/propertree)
