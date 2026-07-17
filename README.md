@@ -126,3 +126,4 @@ So When Disucssing Issues about it Remeber these!
 * [GenSMBIOS](https://github.com/corpnewt/gensmbios)
 * [Hackintosh-User / Me](https://x.com/mohammad_q_124)
 * [Propertree For editing the config.plist](https://github.com/corpnewt/propertree)
+* [RandomAppleBoi for Intel Wifi on Sequoia guide](https://github.com/randomappleboi/Native-Wifi-for-Hackintoshes-with-Intel-Wireless-cards-on-macOS-sequoia)
