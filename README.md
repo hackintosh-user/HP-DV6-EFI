@@ -18,6 +18,7 @@ Discord, they will tell you to rebuild it yourself!! IF you have Any issues Plea
 a Supported BCM Card with OCLP.
 * OCLP Still Does not Support macOS Tahoe As of July 2026. If you Plan on Running macOS, Choose macOS Sequoia Since Sonoma will be Dropped very soon. But the choice is Yours.
 * * In the Platform Tab in the config.plist i will leave it empty as you are required to Use GenSMBIOS to make a MacBookPro SMBIOS. [Use This Link to Get GenSMBIOS](https://github.com/corpnewt/gensmbios) i Recommend MacBookPro10,2 as it Fits the ivy bridge mobile CPU in this DV6 Best.
+* Due to how Github handles Kexts, all kexts uploaded in the /Kext Folder are .zip!! before booting this EFI Folder Make sure to extract them so Your System boots properly without any hiccups 
 
 
 ## Known Issues
