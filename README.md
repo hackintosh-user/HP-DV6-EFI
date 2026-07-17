@@ -120,8 +120,9 @@ And After the Reboot You should login and see this!
 So When Disucssing Issues about it Remeber these!
 ## Credits
 * Apple For macOS, all Kexts inside macOS
+* [OpenCorepkg](https://github.com/acidanthera/opencorepkg)
 * [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
 * [OpenCore legacy Patcher for Root Patches](https://github.com/dortania/Opencore-Legacy-Patcher)
 * [GenSMBIOS](https://github.com/corpnewt/gensmbios)
-* Me lol
+* [Hackintosh-User / Me]
 * [Propertree For editing the config.plist](https://github.com/corpnewt/propertree)
