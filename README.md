@@ -7,7 +7,7 @@
 
 ## Important Note
 I Am Not responsible to any damage that may happen to your system. Hackintoshing is not easy and you should always back up your files before trying to hackintosh!
-Hackintoshing is always random from it formatting your parittion randomly or it not booting. Always keep your Most important Files somewhere you can acess them from anywhere.For example, a Good service i use is google drive. Now that you have been warned, you may continue the guide.
+Hackintoshing is always random from it formatting your parittion randomly or it not booting. Always keep your Most important Files somewhere you can acess them from anywhere. For example, a Good service i use is google drive. Now that you have been warned, you may continue the guide.
 
 
 ## General
