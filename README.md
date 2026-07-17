@@ -69,7 +69,7 @@ Then, You need to Find your WIFI card's PCI Root Path To Then Build Use it in th
 Then:
 
 
-* right Click and select "copy Device Path".
+* Right Click and select "copy Device Path".
 
 
 After this you may Close hackintool.
