@@ -54,7 +54,7 @@ a Supported BCM Card with OCLP.
 
 ## **How To Patch the intel Centrino Wireless N2230 WIFI and BT Combo With [OpenCore Legacy Patcher](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/dortania/Opencore-Legacy-Patcher&ved=2ahUKEwjMnPi7n8-UAxVTR0EAHYEWIM0QFnoECCoQAQ&usg=AOvVaw2R_gm_0tWP2NWgcLM7Ktr-) On macOS Sequoia And later**:
 
-This is a guide! Mainly Because Some Versions of the DV6 have Diffrent PCIe Paths for WIFI Cards, but Most of the Models Are the Same! But regardless here is how to Get The Native WIFI working without itlwm or It's native Client heliport:
+This is a guide, mainly because Some versions of the DV6 have diffrent PCIe paths for WIFI Cards, but most of the models are the same. But regardless here is how to get the native WIFI working without itlwm or It's native client heliport:
 
 You Need The Following Kexts in the exact Same order listed,(Goes in Kernel -> Add):
 * IOSkyWalkFamily.kext ( set min Kernel To 24.0.0)
