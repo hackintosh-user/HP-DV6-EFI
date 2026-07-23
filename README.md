@@ -59,7 +59,7 @@ This is a guide, mainly because Some versions of the DV6 have diffrent PCIe path
 You Need The Following Kexts in the exact Same order listed,(Goes in Kernel -> Add):
 * IOSkyWalkFamily.kext ( set min Kernel To 24.0.0)
 * IO80211FamilyLegacy.kext ( set Min Kernel to 24.0.0)
-* AirPortBcrmNIC.kext ( this is a package From the kext above, Set Min kernel to 24.0.0)
+* AirPortBcrmNIC.kext ( this is a package / Bundle From the kext above, Set Min kernel to 24.0.0)
 * AMFIPass.kext (1: make Sure no AMFI boot Arg is in your NVRAM, 2: Set Min Kernel to 21.0.0)
 * Airportitlwm_Ventura Version ( set min Kernel to 24.0.0)
 
