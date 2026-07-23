@@ -43,8 +43,8 @@ a Supported BCM Card with OCLP.
 
   * CPU: intel Core i7-3610QM @ 2.3GHZ Base, 3.3GHZ turbo
   * RAM: either the  Stock 8GB or maxed out 16GB Will be Fine But 8+ i recommend for Sequoia and Soon Tahoe.
-  * SATA Mode: Must be AHCI for better compatabillity. RAID Is Stock. But you Can make it work on Monterey,(never tested Ventura -- Sequoia)
-  * WIFI: intel Card is prefered as Most BCM cards from 2012 are not Supported in macOS ( well atleast modern macOS)
+  * SATA Mode: Must be AHCI for better compatabillity. RAID Is Stock. But you Can make it work on Monterey, (never tested Ventura -- Sequoia)
+  * WIFI: intel Card is prefered as Most BCM cards from 2012 are not Supported in macOS (well atleast modern macOS)
   * Some Form of OS to make the Installer ( could be Windows Or Linux But Must have Python3. or A Mac)
   * Intel graphics HD 4000 (iGPU)
   * nVidia Geforce GT 630M (Will be Disabled in OpenCore With the boot-arg "-wegnoegpu" )
